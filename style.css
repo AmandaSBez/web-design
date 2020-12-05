@@ -1,5 +1,7 @@
 body{
 	background: #FFEAEC;
+	width: 900px;
+	font-family: Courier;
 }
 
 #title, .subtitle, .post_title{
