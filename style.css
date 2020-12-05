@@ -1,8 +1,9 @@
 body{
 	background: #FFEAEC;
-	width: 900px;
+	max-width: 900px;
 	font-family: Courier;
 	margin: auto;
+	text-align: justify;
 }
 
 #title, .subtitle, .post_title{
