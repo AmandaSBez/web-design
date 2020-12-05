@@ -29,3 +29,12 @@ body{
 	border-radius: 50px;
 	border: 10px solid #faddad;
 }
+
+.contact_list{
+	list-style-type: none;
+	padding-left: 15px; 
+}
+
+.contact_list li a{
+	color: #fc46aa;
+}
