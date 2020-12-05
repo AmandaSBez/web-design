@@ -2,6 +2,7 @@ body{
 	background: #FFEAEC;
 	width: 900px;
 	font-family: Courier;
+	margin: auto;
 }
 
 #title, .subtitle, .post_title{
