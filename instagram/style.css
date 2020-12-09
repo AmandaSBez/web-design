@@ -20,7 +20,7 @@ body{
 
 .instagram-wrapper{
 	display: flex;
-	align-itens: center; /* alinhamento vertical dos itens pr ficar no centro*/
+	align-items: center; /* alinhamento vertical dos itens pr ficar no centro*/
 	justify-content: start; /* para comecar da esquerda para direita */
 	width: 60%;
 	height: 100vh;
@@ -29,7 +29,7 @@ body{
 
 .instagram-phone{
 	display: flex;
-	align-itens: center;
+	align-items: center;
 	justify-content: center;
 	width: 50%;
 }
@@ -40,9 +40,25 @@ body{
 
 .instagram-continue{
 	display: flex;
-	align-itens: center; /* Horizontal */
+	align-items: center; /* Horizontal */
 	justify-content: space-around; /*Vertical - itens sao distribuidos igualmente na linha com o mesmo espacamento entre eles */
-	flex-direction: column; /* os itens do flexbox ficam em uma coluna, um embaixo do outro */
+	flex-direction: column; /* faz os eixos mudarem. os itens do flexbox ficam em uma coluna, um embaixo do outro */
 	width: 50%;
 	min-height: 34rem;
+}
+
+.group{
+	display: flex;
+	justify-content: space-between; 
+	align-items: center;
+	flex-direction: column;
+	background-color: #ffffff;
+	width:100%;
+	padding: 1.3rem 0;
+	border: 1px solid lightgray;
+}
+
+.instagram-logo{
+	width: 300px;
+	height:auto;
 }
