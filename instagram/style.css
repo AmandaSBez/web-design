@@ -59,6 +59,22 @@ body{
 }
 
 .instagram-logo{
-	width: 300px;
-	height:auto;
+	height: 3rem;
+}
+
+.group:nth-child(1){
+	/* seleciona os elementos de group na ordem que estao escritos*/
+	min-height: 19rem;
+}
+
+.profile-photo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.profile-photo img{
+	height: 9rem;
 }
