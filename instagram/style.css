@@ -37,3 +37,12 @@ body{
 .instagram-phone img{
 	height: 45rem;	
 }
+
+.instagram-continue{
+	display: flex;
+	align-itens: center; /* Horizontal */
+	justify-content: space-around; /*Vertical - itens sao distribuidos igualmente na linha com o mesmo espacamento entre eles */
+	flex-direction: column; /* os itens do flexbox ficam em uma coluna, um embaixo do outro */
+	width: 50%;
+	min-height: 34rem;
+}
