@@ -9,6 +9,7 @@
 }
 
 body{
+	/*Corpo da pagina*/
 	width: 100%;
 	min-height: 100vh; /* a altura dele sempre sera essa, ele pode ficar maior caso tenham varios containers maiores dentro*/
 	background-color: rgb(243,243,243);
